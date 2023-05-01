@@ -119,6 +119,9 @@
   
   @media (max-width: 576px) {
     /* Adjustments for screens smaller than 576px */
+    .navbar-toggler-icon {
+      color: red!important;
+    }
 
 
   
@@ -177,6 +180,10 @@
 
 
   }
+  .navbar-toggler-icon {
+    color: rgb(255, 255, 255)!important;
+  }
+
   
   .navbar-nav {
     margin-left: auto; 
@@ -214,8 +221,15 @@
       margin-left: 16px!important;
     }
   }
-  
-  
+
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      background-color: #85b7f3!important; 
+      padding: 0.5rem 0.8rem;
+      font-size: 17px;
+      font-weight: 600;
+      height: 8vh!important;
+    }
   
 
 
